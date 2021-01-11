@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: inline-flex;
+    margin: 25px;
+}
+
+.nav h1{
+    justify-content: flex-start;
+    margin-left: 50px;
+    margin-right: 650px;
+}
+
+.nav li {
+     justify-content: flex-end;
+     margin-top: 13px;
+     width: 110px;
+     font-size: 22px;
+     display: inline-block;
+}
+
+.banner {
+    background-image: url("https://b.rgbimg.com/cache1nEWhw/users/w/we/weirdvis/600/mhCk1xa.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin:30px 0px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.circle {
+     margin: 0 auto;
+    background-image: url("https://b.rgbimg.com/cache1nFyT8/users/w/we/weirdvis/600/mhMmIKK.jpg");
+    background-position: center;
+    height: 250px;
+    width: 250px;
+    border: hidden;
+    border-radius: 50%;
+    position: relative;
+    top: 25%;
+}
+
+.text { 
+    display: inline-flex;
+}
+
+.team {
+    margin: 30px;
+    justify-content: flex-start;
+    max-width: 30%;
+}
+
+.team img{
+     align-content: flex-start;
+     width: 100%;
+}
+
+.mission {
+    justify-content: flex-end;
+    margin: 30px 50px;
+}
